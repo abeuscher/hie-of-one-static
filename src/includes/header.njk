@@ -6,7 +6,9 @@
             </a>
             <nav class="nav">
                 {% for page in collections.all %}
-                    <a href="{{ page.url }}">{{ page.data.title }}</a>
+                    {% if page.url !== '/' %}
+                        <a href="{{ page.url }}">{{ page.data.nav }}</a>
+                    {% endif %}
                 {% endfor %}
             </nav>
         </div>
