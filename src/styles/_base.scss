@@ -20,8 +20,6 @@ h6 {
 
 a {
   color: $dark-blue;
-  text-decoration: none;
-
   &:hover {
     text-decoration: underline;
   }
@@ -30,20 +28,6 @@ a {
 p {
   font-size: 16px;
   line-height: 1.6;
-}
-
-.content-wrapper {
-  max-width: 1200px;
-  margin: 0 auto;
-  &.padding-bottom {
-    padding-bottom: 40px;
-  }
-}
-
-.home-content {
-  background-color: $white;
-  padding: 40px 20px;
-  min-height: 60vh;
 }
 
 @media (max-width: 768px) {

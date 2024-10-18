@@ -1,14 +1,12 @@
 @use "variables" as *;
 
-.page-header-wrapper {
-  background-color: $black;
-  padding: 20px 0;
-}
-
 .page-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: $black;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(20, 15, 36, 0.3);
 }
 
 .logo {
@@ -41,14 +39,15 @@
 
 @media (max-width: 768px) {
   .page-header {
-    flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
+    display: block;
   }
-
+  .logo,
   .nav {
-    margin-top: 20px;
-    flex-direction: column;
-    align-items: flex-end;
-    width: 100%;
+    display: block;
+    a {
+      display: block;
+      margin: 10px 0 0;
+    }
   }
 }
