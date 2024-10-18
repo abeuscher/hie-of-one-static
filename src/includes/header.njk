@@ -1,3 +1,14 @@
-<header class="page-header" id="page-header">
-    <h2>HIE Of One</h2>
+<header class="page-header-wrapper">
+    <div class="content-wrapper">
+        <div class="page-header" id="page-header">
+            <a href="/" class="logo">
+                <img src="/images/logo.png" alt="HIE of One Logo">
+            </a>
+            <nav class="nav">
+                {% for page in collections.all %}
+                    <a href="{{ page.url }}">{{ page.data.title }}</a>
+                {% endfor %}
+            </nav>
+        </div>
+    </div>
 </header>

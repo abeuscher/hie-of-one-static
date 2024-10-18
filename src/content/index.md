@@ -1,8 +1,10 @@
 ---
-title: "HIE of One"
+title: "HIE of One | Home"
 description: "HIE of One offers an open-source, patient-controlled alternative to the standard electronic health record."
 image: "/images/logo.png"
 datePublished: "2024-01-01"
+layout: "page.njk"
+permalink: "/index.html"
 ---
 
 # Our Mission

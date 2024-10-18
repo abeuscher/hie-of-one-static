@@ -1,0 +1,21 @@
+@use "variables" as *;
+
+footer {
+  background-color: $black;
+  color: $blue;
+  text-align: center;
+  padding: 50px 0;
+  min-height: 40vh;
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: $blue;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

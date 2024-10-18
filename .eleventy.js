@@ -9,9 +9,11 @@ module.exports = function (eleventyConfig) {
 
   addFilters(eleventyConfig);
 
-  // Add a collection for markdown files from /src/data
-  eleventyConfig.addCollection("homepage", function (collectionApi) {
-    return collectionApi.getFilteredByGlob("./src/data/index.md");
+  eleventyConfig.addCollection("pages", function (collectionApi) {
+    return collectionApi.getAll().filter(function (item) {
+      // Only include items with a `path` frontmatter
+      return "path" in item.data;
+    });
   });
 
   // Passthrough copy for public assets
@@ -34,15 +36,34 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
+  // Add this function to generate permalinks based on the `path` frontmatter
+  eleventyConfig.addGlobalData("permalink", function () {
+    return (data) => {
+      if (data.path) {
+        // Ensure the path starts with a slash
+        let permalink = data.path.startsWith("/") ? data.path : `/${data.path}`;
+
+        // For the home page, we need to output to index.html
+        if (permalink === "/") {
+          return "/index.html";
+        }
+
+        // For other pages, we'll output to a directory with an index.html file
+        return permalink.endsWith("/") ? `${permalink}index.html` : `${permalink}/index.html`;
+      }
+      // Fallback to the default permalink if no path is specified
+      return data.permalink;
+    };
+  });
+
   return {
     dir: {
       input: "src",
       includes: "includes",
       layouts: "layouts",
-      data: "data", // Change to the folder containing markdown files
+      data: "data",
       output: "dist",
     },
-    // Force Nunjucks for all template formats
     templateFormats: ["njk", "md", "html"],
     htmlTemplateEngine: "njk",
     markdownTemplateEngine: "njk",

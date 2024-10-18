@@ -7,7 +7,8 @@
     "build": "eleventy",
     "watch": "eleventy --watch",
     "clean": "rm -rf _site",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "print": "bash ./print.sh"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
