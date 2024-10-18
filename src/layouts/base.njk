@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>{{ title | default("HIE of One") }}</title>
+        <meta name="description" content="{{ description }}">
+        <meta property="og:title" content="{{ title }}">
+        <meta property="og:description" content="{{ description }}">
+        <meta property="og:image" content="{{ metaImage | default('/images/default-image.jpg') }}">
+        <meta property="og:url" content="https://hieofone.org{{ metaUrl }}">
+
+        <!-- Styles and Scripts -->
+        <script src="/scripts/app.js" defer></script>
+        <link rel="stylesheet" href="/styles/theme.css">
+
+        <!-- JSON-LD Structured Data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "{{ pageType | default('WebPage') }}",
+                "name": "{{ title }}",
+                "datePublished": "{{ datePublished }}",
+                "description": "{{ description }}",
+                "url": "https://hieofone.org{{ metaUrl }}",
+                "image": "{{ metaImage | default('/images/default-image.jpg') }}",
+                "author": {
+                    "@type": "Person",
+                    "name": "HIE of One"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        {% include "header.njk" %}
+        {{ content | safe }}
+        {% include "footer.njk" %}
+    </body>
+</html>

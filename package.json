@@ -1,0 +1,33 @@
+{
+  "name": "hie-of-one",
+  "version": "1.0.0",
+  "description": "Static site builder for hieofone.com",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy",
+    "watch": "eleventy --watch",
+    "clean": "rm -rf _site",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "esbuild": "^0.24.0",
+    "html-minifier": "^4.0.0",
+    "markdown-it": "^14.1.0",
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "@babel/core": "^7.25.8",
+    "@babel/preset-env": "^7.25.8",
+    "@types/node": "^22.7.5",
+    "autoprefixer": "^10.0.0",
+    "babel-loader": "^9.2.1",
+    "esbuild-plugin-alias": "^0.2.1",
+    "prettier": "^3.0.0",
+    "sass": "^1.79.5"
+  },
+  "browserslist": [
+    "defaults"
+  ]
+}
