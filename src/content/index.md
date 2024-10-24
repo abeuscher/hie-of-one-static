@@ -16,9 +16,9 @@ HIE of One offers an open-source, patient-controlled alternative to the standard
 
 - **Open Source:** This is a community driven development effort. If you are a developer and want to participate or read more about the software, please [visit us on GitHub](https://github.com/HIEofOne).
 
-- **Decentralized:** Decentralized services provide a freedom and utility that will, ultimately, change the way software is built. As a strong proponent of community driven software development, we believe that the decentralized nature of our service makes it uniquely better suited to serve healthcare. While HIE does not need wide adoption in order to succeed, we don't mean to be an alternative - we mean to be the primary solution.
+- **Decentralized:** Decentralized services provide a freedom and utility that will, ultimately, change the way software is built. As a strong proponent of community driven software development, we believe that the decentralized nature of our service makes it uniquely better suited to serve healthcare. While HIE does not need wide adoption in order to succeed, we do hope to be enough of a force to encourage standards adoption from large vendors.
 
-- **Sovereign:** It is evident that LLMs (AI) are going to change some aspects of healthcare. Rather than sit in judgment of this, HIE seeks to facilitate interaction between LLMs and EHRs as a matter of discovery. To avoid many of the pitfalls of this space, we feel that sovereign control of patients over their information, and of doctors over their teaching files and notes, are critical to the next evolution in healthcare.
+- **Sovereign:** AI will undoubtedly change some aspects of healthcare. Rather sit in judgment of this, HIE seeks to foster meaningful and responsible interaction between AI and EHRs. It is essential that patients have control over their data, and doctors over their notes and teaching files, so they can take responsibility for their interactions with AI. As with any tool, the outcome depends on how it’s used, and while accountability in AI isn't widely discussed today, it will become a key issue as its role in healthcare grows.
 
 Now that you know where we stand, here's the better news: it works! This whole product is in beta, but you can experiment with all aspects of open source EHR's today. Here's how:
 
