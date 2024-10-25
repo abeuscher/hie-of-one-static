@@ -33,7 +33,7 @@
     </head>
     <body>
         {% include "header.njk" %}
-        <div class="page-content">{{ content | safe }}</div>
+        <div class="{% if permalink == "/demo/index.html" %}page-content{% endif %}">{{ content | safe }}</div>
         {% include "footer.njk" %}
     </body>
 </html>
