@@ -14,3 +14,101 @@
   padding: 40px 20px;
   min-height: 60vh;
 }
+.page-content {
+  ol {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-size: 2rem;
+    counter-reset: tutorial-steps;
+  }
+
+  li {
+    position: relative;
+    margin-bottom: 2rem;
+    background: $tutorial-step-overlay-bg;
+    color: $tutorial-text-light;
+    padding: 1rem 1rem 1rem 4rem;
+    border-radius: $tutorial-border-radius-sm;
+
+    &::before {
+      counter-increment: tutorial-steps;
+      content: counter(tutorial-steps);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      left: 1rem;
+      width: 2rem;
+      height: 2rem;
+      background: $tutorial-step-number-bg;
+      color: $tutorial-text-light;
+      border-radius: 50%;
+      margin-top: 0.25rem;
+    }
+
+    // Container for steps with images
+    &:has(p:last-of-type img) {
+      padding: 0;
+      background: none;
+
+      p:first-of-type {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+        background: $tutorial-step-overlay-bg;
+        padding: 1rem 1rem 1rem 4rem;
+        margin: 0;
+        border-radius: $tutorial-border-radius-sm $tutorial-border-radius-sm 0 0;
+
+        &::before {
+          counter-increment: tutorial-steps;
+          content: counter(tutorial-steps);
+          display: inline-flex;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          left: 1rem;
+          width: 2rem;
+          height: 2rem;
+          background: $tutorial-step-number-bg;
+          color: $tutorial-text-light;
+          border-radius: 50%;
+          margin-top: 0.25rem;
+        }
+      }
+
+      // Hide the original number
+      &::before {
+        content: none;
+      }
+    }
+  }
+
+  p {
+    font-size: 2rem;
+    margin: 0;
+    position: relative;
+  }
+
+  // Links in steps
+  a {
+    color: $tutorial-text-light;
+    text-decoration: underline;
+
+    &:hover {
+      color: $tutorial-text-light-hover;
+    }
+  }
+
+  // Images
+  img {
+    display: block;
+    max-width: 100%;
+    border-radius: $tutorial-border-radius-lg;
+    margin: 0;
+    border: inset 3px solid black;
+  }
+}

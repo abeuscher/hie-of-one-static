@@ -14,18 +14,40 @@ nav: "Demo"
 
 Experience how to set up your personal Electronic Health Record (EHR) and explore your health data with AI assistance.
 
-1. Visit [trustee.health](https://trustee.health).
+1. Visit <a href="https://trustee.health" target="_blank">trustee.health</a>.
+
 2. Enter your email address and click "New to Trustee".
-3. Verify your email address using the code sent to you.
-4. Create a passkey for login:
-   - Mac users: Passkeys are natively supported.
-   - Windows users: Follow the instructions [here](#) to set up passkeys.
-5. Check your email for a link to your NOSH record and click it.
-6. In NOSH, click the Sync button (two circular arrows) and select a Synthetic Mass patient to import.
-7. Click the Import Everything button (two up/down arrows) to add the contents to your Timeline.
-8. Select "Launch MAIA" from the side menu.
-9. Log into Trustee from MAIA.
-10. Start asking AI questions about your Patient Timeline!
+
+   ![Step 2: Enter email](/images/screenshot-001.gif)
+
+3. Verify your email address by clicking the "Verify" button in the email you receive.
+
+   ![Step 3: Verify email](/images/screenshot-002.gif)
+
+4. Return to The signup tab.
+
+5. Create a passkey and login:
+   **Mac users:** Passkeys are natively supported.
+   **Windows users:** You must have Microsoft Hello or some form of biometric login enabled.
+
+   ![Step 5: Create passkey and login](/images/screenshot-003.gif)
+
+6. Enter your basic demographic information.
+
+   ![Step 5: Enter name, DOB, PIN](/images/screenshot-004.gif)
+
+7. Click "Submit", This will trigger the building of your initial blank EHR in NOSH.
+   You will also be sent an email with a link to your EHR for easy recovery later.
+
+8. In NOSH, click the Sync button (two circular arrows) and select a Synthetic Mass patient to import.
+
+9. Click the Import Everything button (two up/down arrows) to add the contents to your Timeline.
+
+10. Select "Launch MAIA" from the side menu.
+
+11. Log into Trustee from MAIA.
+
+12. Start asking AI questions about your Patient Timeline!
 
 ## Healthcare Providers
 

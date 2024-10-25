@@ -33,7 +33,7 @@
     </head>
     <body>
         {% include "header.njk" %}
-        {{ content | safe }}
+        <div class="page-content">{{ content | safe }}</div>
         {% include "footer.njk" %}
     </body>
 </html>
