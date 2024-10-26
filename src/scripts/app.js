@@ -22,4 +22,22 @@ window.addEventListener("load", () => {
   }
 });
 
-const siteActions = [];
+const siteActions = [
+  {
+    element: 'img[src$=".gif"]',
+    action: (elements) => {
+      elements.forEach((img) => {
+        // Add a "Show Screenshot" button before each image
+        const button = document.createElement("button");
+        button.textContent = `screenshot`;
+        button.className = "toggle-screenshot";
+        img.parentNode.insertBefore(button, img);
+
+        button.addEventListener("click", () => {
+          img.classList.toggle("show");
+          button.textContent = img.classList.contains("show") ? `hide screenshot` : `screenshot`;
+        });
+      });
+    },
+  },
+];

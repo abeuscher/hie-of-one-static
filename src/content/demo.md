@@ -10,56 +10,47 @@ nav: "Demo"
 
 # Demo
 
-## Patients
-
-Experience how to set up your personal Electronic Health Record (EHR) and explore your health data with AI assistance.
-
 1. Visit <a href="https://trustee.health" target="_blank">trustee.health</a>.
 
 2. Enter your email address and click "New to Trustee".
 
    ![Step 2: Enter email](/images/screenshot-001.gif)
 
-3. Verify your email address by clicking the "Verify" button in the email you receive.
+3. Verify your email address by clicking the "Verify" button in the email you receive. Return to The signup tab when you are done.
 
    ![Step 3: Verify email](/images/screenshot-002.gif)
 
-4. Return to The signup tab.
+4. Create a passkey and login:
 
-5. Create a passkey and login:
-   **Mac users:** Passkeys are natively supported.
-   **Windows users:** You must have Microsoft Hello or some form of biometric login enabled.
+   - **Mac users:** Passkeys are natively supported.
+   - **Windows users:** You must have Microsoft Hello or some form of biometric login enabled.
 
-   ![Step 5: Create passkey and login](/images/screenshot-003.gif)
+   ![Step 4: Create Passkey](/images/screenshot-003.gif)
 
-6. Enter your basic demographic information.
+5. Enter your basic demographic information.
 
-   ![Step 5: Enter name, DOB, PIN](/images/screenshot-004.gif)
+   ![Step 5: Enter name, DOB, PIN](/images/screenshot-006.gif)
 
-7. Click "Submit", This will trigger the building of your initial blank EHR in NOSH.
+6. Click "Submit", This will trigger the building of your initial blank EHR in NOSH.
    You will also be sent an email with a link to your EHR for easy recovery later.
 
-8. In NOSH, click the Sync button (two circular arrows) and select a Synthetic Mass patient to import.
+   ![Step 6: Submit info to NOSH](/images/screenshot-007.gif)
 
-9. Click the Import Everything button (two up/down arrows) to add the contents to your Timeline.
+7. In NOSH, click the Sync button (two circular arrows) and select a Synthetic Mass patient to import. Click the Import Everything button to add the contents to your Timeline.
 
-10. Select "Launch MAIA" from the side menu.
+   ![Step 7: Import synthetic records](/images/screenshot-008.gif)
 
-11. Log into Trustee from MAIA.
+8. Select "Launch MAIA" from the side menu.
 
-12. Start asking AI questions about your Patient Timeline!
+   ![Step 8: Launch MAIA](/images/screenshot-009.gif)
 
-## Healthcare Providers
+9. Log into Trustee from MAIA. This will download your patient timeline from NOSH into the chat. You can now ask the AI questions about the patient timeline.
 
-Discover how Trustee and NOSH offer an alternative for managing patient EHRs in your practice.
+   ![Step 9: Interact with MAIA](/images/screenshot-010.gif)
 
-1. Follow steps 1-7 from the Patient Demo to set up a test account.
-2. Explore the NOSH interface to familiarize yourself with the provider view of patient records.
-3. Select "Launch MAIA" from the side menu to see how AI can assist in analyzing patient data.
-4. Log into Trustee from MAIA.
-5. Experiment with asking AI questions about the patient Timeline, considering how this could benefit your practice.
+10. When you are done, you can save your results locally or back into your EHR from NOSH. In NOSH, this encounter shows up as a timeline event like any other interaction.
 
-After trying the demo, we encourage you to [connect with us](mailto:hieofone.org) to discuss how HIE of One can benefit your practice and patients.
+    ![Step 10: Save back to timeline](/images/screenshot-011.gif)
 
 ### Troubleshooting
 
