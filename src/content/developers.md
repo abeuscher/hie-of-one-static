@@ -68,4 +68,6 @@ When working with these repositories, please adhere to the following guidelines:
 
 We encourage you to explore these projects, contribute improvements, or build new applications that leverage our open-source infrastructure. If you have questions or need assistance, please don't hesitate to open an issue in the relevant repository or contact our development team.
 
-Together, we can advance patient-controlled healthcare technology and improve outcomes for all.
+## Architecture Diagram
+
+<div id="diagram-container"></div>

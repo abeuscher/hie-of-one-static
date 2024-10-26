@@ -11,10 +11,10 @@
     "print": "bash ./print.sh"
   },
   "dependencies": {
+    "@joint/core": "^4.0.4",
     "dotenv": "^16.0.3",
     "esbuild": "^0.24.0",
     "html-minifier": "^4.0.0",
-    "markdown-it": "^14.1.0",
     "pug": "^3.0.3"
   },
   "devDependencies": {

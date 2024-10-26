@@ -27,3 +27,19 @@
     max-height: 500px; /* Adjust based on your largest GIF */
   }
 }
+#diagram-container {
+  width: 100%;
+  max-width: 1200px; /* or whatever maximum width you want */
+  margin: 0 auto;
+}
+
+#diagram-container button {
+  margin: 4px;
+  white-space: nowrap;
+}
+
+@media (max-width: 600px) {
+  #diagram-container {
+    padding: 10px;
+  }
+}

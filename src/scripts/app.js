@@ -1,3 +1,5 @@
+import createDiagram from "./diagram";
+
 const siteSettings = {
   imagePath: "",
   videoPath: "",
@@ -23,6 +25,10 @@ window.addEventListener("load", () => {
 });
 
 const siteActions = [
+  {
+    element: "#diagram-container",
+    action: createDiagram,
+  },
   {
     element: 'img[src$=".gif"]',
     action: (elements) => {
