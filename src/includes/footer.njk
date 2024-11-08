@@ -2,6 +2,11 @@
     <div class="content-wrapper">
         <div class="col-wide">
             <p>&copy; 2024 HIE of One. This site does not use cookies.</p>
+            <nav class="nav">
+                {% for page in collections.footernav %}
+                    <a href="{{ page.url }}">{{ page.data.nav }}</a>
+                {% endfor %}
+            </nav>
         </div>
     </div>
 </footer>

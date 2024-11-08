@@ -6,6 +6,7 @@ datePublished: "2024-01-01"
 layout: "page.njk"
 permalink: "/demo/index.html"
 nav: "Demo"
+tags: ["header"]
 ---
 
 # Demo

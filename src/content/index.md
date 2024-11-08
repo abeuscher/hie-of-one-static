@@ -6,6 +6,7 @@ datePublished: "2024-01-01"
 layout: "page.njk"
 permalink: "/index.html"
 nav: "home"
+tags: []
 ---
 
 # Our Mission

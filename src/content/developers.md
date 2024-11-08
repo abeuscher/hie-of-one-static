@@ -6,6 +6,7 @@ datePublished: "2024-01-01"
 layout: "page.njk"
 permalink: "/developers/index.html"
 nav: "Developers"
+tags: ["header"]
 ---
 
 # Developer Info

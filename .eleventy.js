@@ -15,7 +15,16 @@ module.exports = function (eleventyConfig) {
       return "path" in item.data;
     });
   });
-
+  eleventyConfig.addCollection("headernav", function (collectionApi) {
+    return collectionApi.getAll().filter(function (item) {
+      return item.data.tags && item.data.tags.includes("header");
+    });
+  });
+  eleventyConfig.addCollection("footernav", function (collectionApi) {
+    return collectionApi.getAll().filter(function (item) {
+      return item.data.tags && item.data.tags.includes("footer");
+    });
+  });
   // Passthrough copy for public assets
   eleventyConfig.addPassthroughCopy({ "src/public": "./" });
 
