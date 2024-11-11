@@ -29,6 +29,14 @@ Experience how our open-source EHR works for both patients and healthcare provid
 
 [Try the Demo](/demo/)
 
+<div class="warning-home">
+
+### CAUTION
+
+Trustee® is an unregulated, patient-controlled demonstration that exposes your health records to unregulated AI providers with varying privacy policies and terms of use. The HIE of One Privacy Policy does not protect you from how the AI service you choose may use your information or how they may return wrong or misleading suggestions. We strongly recommend consulting a licensed healthcare professional before taking any actions. In case of an emergency, always call 911.
+
+</div>
+
 ## Healthcare Providers
 
 ### How HIE of One Supports Your Practice
