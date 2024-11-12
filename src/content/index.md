@@ -9,9 +9,13 @@ nav: "home"
 tags: []
 ---
 
+# The Problem
+
+Healthcare institutions and vendors employ closed systems which help to foster control over patient data, often circumventing established standards for data sharing and recording. This fragmentation leaves patients and doctors struggling to coordinate care across multiple disconnected platforms, while growing political and economic uncertainty in healthcare demands greater autonomy from large institutions. As healthcare technology evolves to incorporate AI capabilities, patients need a solution that gives them control of their complete medical history while ensuring seamless data exchange between providers and systems.
+
 # Our Mission
 
-HIE of One offers an open-source, patient-controlled alternative to the standard electronic health record. We feel that patient-controlled data is essential to safety and good health. HIE of One's Trustee Community is designed to foster the assembly of patients and healthcare providers with common interests and motives without the involvement of large institutions, corporations, and similar monoliths.
+HIE of One offers an open-source, patient-controlled alternative to the standard electronic health record. We feel that patient-controlled data is essential to safety and good health. HIE of One's Trustee Community is designed to foster the assembly of patients and healthcare providers with common interests and motives without the involvement of large institutions, corporations, and similar monoliths. Our platform integrates with major healthcare systems, electronic health records, and consumer health apps, enabling both providers and patients to consolidate and manage health information from multiple sources in one secure, patient-controlled environment.
 
 ## Key Differentiators
 
