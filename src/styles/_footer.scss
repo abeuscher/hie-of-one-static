@@ -7,12 +7,19 @@ footer {
     color: $white;
     padding: 50px 20px;
     box-shadow: 0 0 10px rgba(20, 15, 36, 0.3);
+    .warning {
+      border: 1px solid #333;
+      background: #d4f4fb;
+      padding: 0 25px 25px;
+      color: black;
+      border-radius: 5px;
+    }
   }
   p {
     margin: 0;
   }
   nav.nav {
-    margin-top: 25px;
+    margin: 25px auto;
     justify-content: center;
     a {
       size: 12px;

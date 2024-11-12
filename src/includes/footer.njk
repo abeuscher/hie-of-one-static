@@ -1,12 +1,16 @@
 <footer class="flex centered">
     <div class="content-wrapper">
         <div class="col-wide">
-            <p>&copy; 2024 HIE of One. This site does not use cookies.</p>
+            <div class="warning">
+                <h1> Caution</h1>
+                <p>Trustee® is an unregulated, patient-controlled demonstration that exposes your health records to unregulated AI providers with varying privacy policies and terms of use. The HIE of One Privacy Policy does not protect you from how the AI service you choose may use your information or how they may return wrong or misleading suggestions. We strongly recommend consulting a licensed healthcare professional before taking any actions. In case of an emergency, always call 911.</p>
+            </div>
             <nav class="nav">
                 {% for page in collections.footernav %}
                     <a href="{{ page.url }}">{{ page.data.nav }}</a>
                 {% endfor %}
             </nav>
+            <p>&copy; 2024 HIE of One. This site does not use cookies.</p>
         </div>
     </div>
 </footer>

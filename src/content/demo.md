@@ -5,7 +5,7 @@ image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
 permalink: "/demo/index.html"
-nav: "Demo"
+nav: "Try It Now"
 tags: ["header"]
 ---
 
