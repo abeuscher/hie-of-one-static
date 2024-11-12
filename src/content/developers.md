@@ -19,7 +19,6 @@ Our ecosystem consists of several key components:
 
 1. Trustee Community: A GNAP Authorization Server
 2. NOSH: A GNAP Resource Server and Electronic Health Record system
-3. MAIA: An AI-assisted interface for interacting with health data
 
 As a developer, you have the opportunity to contribute to these existing projects or build your own applications using our infrastructure.
 
@@ -27,7 +26,7 @@ As a developer, you have the opportunity to contribute to these existing project
 
 To begin working with HIE of One projects:
 
-1. Choose a project to focus on (MAIA, NOSH, or Trustee Community).
+1. Choose a project to focus on.
 2. Fork the respective repository on GitHub.
 3. Set up your local development environment following the README instructions in each repo.
 4. Familiarize yourself with the GNAP (Grant Negotiation and Authorization Protocol) as it's central to our architecture.
@@ -63,7 +62,6 @@ Here are the main repositories you can contribute to or build upon:
 When working with these repositories, please adhere to the following guidelines:
 
 - Respect patient privacy and data security in all contributions.
-- Follow the coding standards and contribution guidelines specified in each repository.
 - Engage with the community through issues and pull requests.
 - Consider the implications of AI in healthcare when developing new features, especially for MAIA.
 
