@@ -9,6 +9,8 @@ nav: "Try It Now"
 tags: ["header"]
 ---
 
+<div class="demo-content">
+
 # Demo
 
 1. Visit <a href="https://trustee.health" target="_blank">trustee.health</a>.
@@ -61,3 +63,5 @@ If the MAIA app fails, try deleting these cookies:
 - In LocalStorage: the value "noshuri"
 
 This should allow the app to relaunch properly from NOSH.
+
+</div>

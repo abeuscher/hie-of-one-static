@@ -11,12 +11,14 @@
 
 .content {
   background-color: $white;
-  padding: 120px 50px;
+  padding: 40px 50px;
   min-height: 60vh;
 }
 .demo-content {
   img[src$=".gif"] {
     max-height: 0;
+    max-width: 100%;
+    width: 100%;
     overflow: hidden;
     transition: max-height 0.3s ease-in-out;
     display: block;
@@ -25,6 +27,10 @@
 
   img[src$=".gif"].show {
     max-height: 500px; /* Adjust based on your largest GIF */
+  }
+  ol {
+    margin: 0;
+    padding: 0 0 0 20px;
   }
 }
 #diagram-container {
@@ -42,4 +48,21 @@
   #diagram-container {
     padding: 10px;
   }
+  
+}
+@media (min-width: 1024px) {
+.verticals {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 -10px;
+  .vertical {
+    width: calc(33.3333% - 20px);
+    margin: 0 10px;
+    margin-bottom: 20px;
+    h2 {
+      border-bottom: 1px solid #333;
+    }
+  }
+}
 }

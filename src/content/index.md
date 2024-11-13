@@ -33,10 +33,18 @@ Experience how our open-source EHR works for both patients and healthcare provid
 
 [Try the Demo](/demo/)
 
+<div class="verticals">
+<div class="vertical">
+
 ## For Developers
+
+Build the future of healthcare technology. Install, fork, and contribute to our open-source EHR platform and help put patients in control of their health data.
 
 - [Introduction](/developers/)
 - [HIE OF One on GitHub](https://github.com/HIEofOne)
+
+</div>
+<div class="vertical">
 
 ## For Healthcare Providers
 
@@ -45,10 +53,18 @@ Trustee and NOSH aim to offer an alternative for managing patient EHRs in your p
 - [Read More](/clinicians/)
 - [Try the Demo](/demo/)
 
-## For patients
+</div>
+<div class="vertical">
+
+## For Patients
+
+Take control of your complete health record in a secure, easy-to-use platform. Try our demo to see how you can gather, manage, and share your medical information on your terms.
 
 - [Read More](/patients/)
 - [Try the Demo](/demo/)
+
+</div>
+</div>
 
 ### Key Repositories:
 
