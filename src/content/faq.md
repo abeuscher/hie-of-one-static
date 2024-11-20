@@ -11,19 +11,13 @@ tags: ["footer"]
 
 # Frequently Asked Questions
 
-## Privacy and AI Services
-
 **Q: What are the concerns with posting private data to Generative AI Services like Anthropic or OpenAI?**
 
 A: The Electronic Privacy Information Center (EPIC) has filed a complaint with the FTC that seems like a thorough list of concerns. Although the complaint is specific to OpenAI, much of it applies to other AI services including Anthropic and others you can use with a medical AI assistant. [Read EPIC's press release](https://epic.org/press-release-epic-files-complaint-urging-the-ftc-to-investigate-openais-gpts-and-third-party-apis/)
 
-## Business Model
-
 **Q: What is the business and sustainability model behind HIE of One and the Free Trustee service?**
 
 A: HIE of One is registered as a Delaware Public Benefits Corporation and our work is supported by volunteers in the spirit of an open source / Free Software project. As part of that support, we are paying the hosting and API fees for the Trustee demonstration. Access to Trustee will be limited when usage exceeds our very limited budget. It is our hope that patient and clinician communities will build our Free Software into scalable and sustainable health care services. This HIE of One website and the Trustee trademark hopes to feature the best and most collaborative communities and tech built around patient-controlled health records and AI.
-
-## Regulatory Protection
 
 **Q: What about privacy and the risks of managing my health records and health-related data outside of HIPAA and other regulatory protections?**
 
