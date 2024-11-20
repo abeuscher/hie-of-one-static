@@ -6,7 +6,7 @@ datePublished: "2024-01-01"
 layout: "page.njk"
 permalink: "/faq/index.html"
 nav: "FAQ"
-tags: ["header"]
+tags: ["footer"]
 ---
 
 # Frequently Asked Questions

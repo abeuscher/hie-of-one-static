@@ -1,6 +1,6 @@
 ---
 title: "HIE of One Demo"
-description: "Step-by-step guides for patients and healthcare providers to test the HIE of One open-source, patient-controlled EHR system. Experience the integration of AI-assisted health data management in a decentralized framework."
+description: "Step-by-step guides for patients and Clinicians  to test the HIE of One open-source, patient-controlled EHR system. Experience the integration of AI-assisted health data management in a decentralized framework."
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"

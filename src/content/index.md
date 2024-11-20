@@ -15,7 +15,7 @@ Healthcare institutions and vendors employ closed systems which help to foster c
 
 # Our Mission
 
-HIE of One offers an open-source, patient-controlled alternative to the standard electronic health record. We feel that patient-controlled data is essential to safety and good health. HIE of One's Trustee Community is designed to foster the assembly of patients and healthcare providers with common interests and motives without the involvement of large institutions, corporations, and similar monoliths. Our platform integrates with major healthcare systems, electronic health records, and consumer health apps, enabling both providers and patients to consolidate and manage health information from multiple sources in one secure, patient-controlled environment.
+HIE of One offers a free, open-source, patient-controlled alternative to the standard electronic health record. We feel that patient-controlled data is essential to safety and good health. HIE of One's Trustee Community is designed to foster the assembly of patients and Clinicians with common interests and motives without the involvement of large institutions, corporations, and similar monoliths. Our platform integrates with major healthcare systems, electronic health records, and consumer health apps, enabling both providers and patients to consolidate and manage health information from multiple sources in one secure, patient-controlled environment.
 
 ## Key Differentiators
 
@@ -29,7 +29,7 @@ Now that you know where we stand, here's the better news: it works! This whole p
 
 ## Demo
 
-Experience how our open-source EHR works for both patients and healthcare providers!
+Experience how our open-source EHR works for both patients and Clinicians !
 
 [Try the Demo](/demo/)
 
@@ -46,7 +46,7 @@ Build the future of healthcare technology. Install, fork, and contribute to our 
 </div>
 <div class="vertical">
 
-## For Healthcare Providers
+## For Clinicians
 
 Trustee and NOSH aim to offer an alternative for managing patient EHRs in your practice.
 

@@ -13,7 +13,7 @@ tags: ["header"]
 
 ## Introduction
 
-HIE of One is an open-source initiative aimed at creating a patient-controlled alternative to standard electronic health records. Our project emphasizes decentralization, sovereignty, and the integration of AI in healthcare data management. We welcome developers who share our vision of empowering patients and healthcare providers through technology.
+HIE of One is an open-source initiative aimed at creating a patient-controlled alternative to standard electronic health records. Our project emphasizes decentralization, sovereignty, and the integration of AI in healthcare data management. We welcome developers who share our vision of empowering patients and Clinicians through technology.
 
 Our ecosystem consists of several key components:
 
