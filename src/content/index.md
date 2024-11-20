@@ -11,7 +11,7 @@ tags: []
 
 # The Problem
 
-Healthcare institutions and vendors employ closed systems which help to foster control over patient data, often circumventing established standards for data sharing and recording. This fragmentation leaves patients and doctors struggling to coordinate care across multiple disconnected platforms, while growing political and economic uncertainty in healthcare demands greater autonomy from large institutions. As healthcare technology evolves to incorporate AI capabilities, patients need a solution that gives them control of their complete medical history while ensuring seamless data exchange between providers and systems.
+Medical records are trapped in separate systems that don't communicate. This fragmentation leaves patients and doctors struggling to coordinate care across multiple disconnected platforms, while growing political and economic uncertainty in healthcare demands greater autonomy from large institutions. Modern health data now extends beyond traditional medical records to include information from wearable devices and personal health technology. As artificial intelligence becomes part of healthcare, patients need a secure way to control their complete health information and choose how it's used. A solution is needed that puts patients in charge while ensuring their data can flow seamlessly between healthcare providers and systems.
 
 # Our Mission
 
