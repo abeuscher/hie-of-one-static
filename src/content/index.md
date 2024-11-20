@@ -70,3 +70,5 @@ Take control of your complete health record in a secure, easy-to-use platform. T
 
 - [Trustee Community](https://github.com/HIEofOne/Trustee-Community)
 - [NOSH](https://github.com/shihjay2/nosh3)
+- [MAIA](https://github.com/abeuscher/vue-ai-example)
+- [GNAP Client Support](https://github.com/hieofone/vue3-gnap)
