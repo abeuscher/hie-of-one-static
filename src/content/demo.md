@@ -37,6 +37,8 @@ tags: ["header"]
 6. Click "Submit", This will trigger the building of your initial blank EHR in NOSH.
    You will also be sent an email with a link to your EHR for easy recovery later.
 
+   **IMPORTANT:** Make sure to keep your browser tab in focus while NOSH builds your record. This product is in beta and can provide unpredictable results unless you keep the browser winbdow in focus while your record is built.
+
    ![Step 6: Submit info to NOSH](/images/screenshot-007.gif)
 
 7. In NOSH, click the Sync button (two circular arrows) and select a Synthetic Mass patient to import. Click the Import Everything button to add the contents to your Timeline.
