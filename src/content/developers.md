@@ -67,6 +67,15 @@ When working with these repositories, please adhere to the following guidelines:
 
 We encourage you to explore these projects, contribute improvements, or build new applications that leverage our open-source infrastructure. If you have questions or need assistance, please don't hesitate to open an issue in the relevant repository or contact our development team.
 
+## Get Involved
+
+We are a very small group looking to grow. Any form of participation is encouraged:
+
+- Join our subreddit at [/r/HIEofOne/](https://reddit.com/r/HIEofOne/) for discussions and updates
+- Engage with the community through issues and pull requests
+- Contribute improvements or build new applications
+- Open an issue in the relevant repository if you need assistance
+
 ## Architecture Diagram
 
 <div id="diagram-container"></div>
