@@ -29,3 +29,5 @@ We've created a demonstration that lets you experience how Trustee works. You ca
 - Use AI assistance to better understand your health data
 
 [Try the Demo](/demo/)
+
+[Join us at /r/HIEofOne/](https://reddit.com/r/HIEofOne/)

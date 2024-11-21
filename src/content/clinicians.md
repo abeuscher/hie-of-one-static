@@ -21,4 +21,4 @@ Trustee and NOSH aim to offer an alternative for managing patient EHRs in your p
 
 By using HIE of One, you support a patient-centered, open future in healthcare, focused on autonomy, transparency, and collaboration.
 
-After [trying the demo](/demo/), we encourage you to [connect with us](mailto:info@trustee.ai) to discuss how HIE of One can benefit your practice and patients.
+After [trying the demo](/demo/), we encourage you to join our subreddit at [/r/HIEofOne/](https://reddit.com/r/HIEofOne/) or [reach out through email](mailto:info@trustee.ai) to discuss how you can work with us.
