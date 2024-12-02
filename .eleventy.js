@@ -7,6 +7,9 @@ const { addFilters } = require("./src/filters/index.js");
 module.exports = function (eleventyConfig) {
   eleventyConfig.ignores.add("src/macros/**");
 
+  eleventyConfig.addGlobalData("site", {
+    url: process.env.SITE_URL || "http://localhost:8080",
+  });
   addFilters(eleventyConfig);
 
   eleventyConfig.addCollection("pages", function (collectionApi) {
@@ -45,9 +48,13 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  // Add this function to generate permalinks based on the `path` frontmatter
   eleventyConfig.addGlobalData("permalink", function () {
     return (data) => {
+      // Special case for sitemap.xml
+      if (data.permalink === "/sitemap.xml") {
+        return "/sitemap.xml";
+      }
+
       if (data.path) {
         // Ensure the path starts with a slash
         let permalink = data.path.startsWith("/") ? data.path : `/${data.path}`;
