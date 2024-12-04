@@ -13,7 +13,7 @@ eleventyExcludeFromCollections: true
     {# Navigation pages #}
     {%- for page in collections.headernav %}
         <url>
-            <loc>{{ site.url }}{{ page.data.permalink | replace('/index.html', '/') }}</loc>
+            <loc>{{ site.url }}{{ page.data.permalink }}</loc>
             {%- if page.data.datePublished %}
                 <lastmod>{{ page.data.datePublished }}</lastmod>
             {%- endif %}
