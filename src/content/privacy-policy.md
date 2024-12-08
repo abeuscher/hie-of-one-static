@@ -4,7 +4,7 @@ description: "Privacy policy for hieofone.com."
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
-permalink: "/privacy-policy/index.html"
+permalink: "/privacy-policy/"
 nav: "Privacy Policy"
 tags: ["footer"]
 ---

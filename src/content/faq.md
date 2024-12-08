@@ -4,7 +4,7 @@ description: "Frequently asked questions about HIE of One's open-source healthca
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
-permalink: "/faq/index.html"
+permalink: "/faq/"
 nav: "FAQ"
 tags: ["footer"]
 ---

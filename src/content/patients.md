@@ -4,7 +4,7 @@ description: "Take control of your health records with HIE of One's patient-cent
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
-permalink: "/patients/index.html"
+permalink: "/patients/"
 nav: "Patients"
 tags: ["header"]
 ---

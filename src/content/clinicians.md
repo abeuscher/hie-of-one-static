@@ -4,7 +4,7 @@ description: "Discover how HIE of One supports your medical practice with patien
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
-permalink: "/clinicians/index.html"
+permalink: "/clinicians/"
 nav: "Clinicians"
 tags: ["header"]
 ---

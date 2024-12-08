@@ -4,7 +4,7 @@ description: "Step-by-step guides for patients and Clinicians  to test the HIE o
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
-permalink: "/demo/index.html"
+permalink: "/demo/"
 nav: "Try It Now"
 tags: ["header"]
 ---

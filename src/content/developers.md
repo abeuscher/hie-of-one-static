@@ -4,7 +4,7 @@ description: "Information for developers interested in contributing to or buildi
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
-permalink: "/developers/index.html"
+permalink: "/developers/"
 nav: "Developers"
 tags: ["header"]
 ---

@@ -4,7 +4,7 @@ description: "Terms of Service for Trustee."
 image: "/images/logo.png"
 datePublished: "2024-01-01"
 layout: "page.njk"
-permalink: "/terms-of-service/index.html"
+permalink: "/terms-of-service/"
 nav: "Terms of Service"
 tags:
   - footer
