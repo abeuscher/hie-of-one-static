@@ -48,30 +48,6 @@ module.exports = function (eleventyConfig) {
     return content;
   });
 
-  eleventyConfig.addGlobalData("permalink", function () {
-    return (data) => {
-      // Special case for sitemap.xml
-      if (data.permalink === "/sitemap.xml") {
-        return "/sitemap.xml";
-      }
-
-      if (data.path) {
-        // Ensure the path starts with a slash
-        let permalink = data.path.startsWith("/") ? data.path : `/${data.path}`;
-
-        // For the home page, we need to output to index.html
-        if (permalink === "/") {
-          return "/index.html";
-        }
-
-        // For other pages, we'll output to a directory with an index.html file
-        return permalink.endsWith("/") ? `${permalink}index.html` : `${permalink}/index.html`;
-      }
-      // Fallback to the default permalink if no path is specified
-      return data.permalink;
-    };
-  });
-
   return {
     dir: {
       input: "src",
