@@ -33,6 +33,10 @@ Experience for yourself how our open-source EHR works for both patients and Clin
 
 [Try the Demo](/demo/)
 
+<div class="yt-frame">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/M1GukNhzugM?si=Pa_b0Tcs5tOhvCZO?rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
 <div class="verticals">
 <div class="vertical">
 
