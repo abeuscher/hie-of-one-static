@@ -28,6 +28,7 @@ module.exports = function (eleventyConfig) {
       return item.data.tags && item.data.tags.includes("footer");
     });
   });
+  eleventyConfig.ignores.add("src/public/**");
   // Passthrough copy for public assets
   eleventyConfig.addPassthroughCopy({ "src/public": "./" });
 

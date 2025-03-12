@@ -6,9 +6,10 @@
     "start": "eleventy --serve",
     "build": "eleventy",
     "watch": "eleventy --watch",
-    "clean": "rm -rf _site",
+    "clean": "rm -rf dist",
     "format": "prettier --write .",
-    "print": "bash ./print.sh"
+    "print": "bash ./print.sh",
+    "tree": "find . -maxdepth 4 -type d \\( -name \"node_modules\" -o -name \".git\" \\) -prune -o -print"
   },
   "dependencies": {
     "@joint/core": "^4.0.4",
